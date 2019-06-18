@@ -1,8 +1,8 @@
 from scipy.special import erfinv
-import alliance_models
-import event_types
-import award_types
-import slff_points
+import scoring.alliance_models as alliance_models
+import scoring.event_types as event_types
+import scoring.award_types as award_types
+import scoring.slff_points as slff_points
 import tbapy
 import math
 import os
